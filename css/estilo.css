@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+body {
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+  font-family: 'Ubuntu Mono', monospace;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 46px !important;
+  color: #a6e22b;
+}
+
+h2 {
+  font-size: 32px !important;
+  margin-bottom: 10px !important;
+  font-style: italic;
+}
+
+.card-left {
+  color: #fff;
+  background-color: #272822;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  border-radius: 8px;
+  padding: 50px;
+  width: 500px;
+  margin-right: 20px;
+
+  box-shadow: 0 8px 8px -4px #bdcbd4;
+}
+
+.card-right {
+  color: #fff;
+  background-color: #272822;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  border-radius: 8px;
+  padding: 50px;
+  width: 500px;
+
+  box-shadow: 0 8px 8px -4px #bdcbd4;
+}
+
+.content>h3 {
+  margin: 25px 0;
+}
+
+.content>h4 {
+  color: #e6c450;
+  margin-top: 50px;
+}
+
+.content>ul>li {
+  text-align: center;
+  margin: 10px 0;
+}
+
+.content>ul {
+  list-style-type: none;
+}
+
+
+#skills {
+  display: flex;
+  justify-content: center;
+  margin-top: -30px;
+  padding-bottom: 100px;
+  text-align: center !important;
+}
+
+#abstract{
+  font-style: italic;
+}
+
+#huggy,
+#huggy:visited,
+#huggy:hover {
+  color: #f22654;
+  text-decoration: none;
+  font-weight: bold;
+  font-style: normal;
+}
+
+#header {
+  text-align: center !important;
+  background-color: #272822;
+  padding: 120px 60px 20px;
+  color: #e6c450;
+}
+
+#avatar {
+  display: block;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+#banner {
+  background: url("../img/desktop.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+
+  width: 100% !important;
+  height: 400px;
+}
+
+#works{
+  text-align: center !important;  
+  border-top: 1px solid rgba(0, 0, 0, 0.12);
+  padding: 100px 30px;
+}
+
+#works>h2 {
+  font-style: bold !important;
+}
+
+#works>p>a,
+#works>p>a:visited,
+#works>p>a:hover {
+  color: #88846f !important;
+  text-decoration: none !important;
+  font-weight: 700 !important;
+  font-style: normal !important;
+}
+
+@media (max-width: 414px) {
+  #avatar {
+    width: 120px;
+  }
+
+  #header {
+    padding-bottom: 60px;
+  }
+
+  #abstract {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  #banner {
+    background: url("../img/mobale.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+}
+@media (min-width: 414px) {
+  #avatar {
+    width: 172px;
+  }
+  #header {
+    padding-bottom: 160px;
+  }
+  #abstract {
+    width: 500px;
+    margin: 0 auto;
+  }
+}
