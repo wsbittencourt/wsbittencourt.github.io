@@ -4,7 +4,7 @@ body {
   font-size: 18px;
   margin: 0;
   padding: 0;
-  font-family: 'Ubuntu Mono', monospace;
+  font-family: "Ubuntu Mono", monospace;
 }
 
 h1 {
@@ -13,21 +13,23 @@ h1 {
   color: #a6e22b;
 }
 
-h2 {
+h2.sub {
   font-size: 32px !important;
   margin-bottom: 10px !important;
   font-style: italic;
 }
 
+.left{
+  margin-right: 20px;
+}
+
 .card-left {
   color: #fff;
   background-color: #272822;
-  border: 1px solid rgba(0, 0, 0, 0.12);
+  border: 3px solid #1e1f1c;
   box-sizing: border-box;
-  border-radius: 8px;
   padding: 50px;
-  width: 500px;
-  margin-right: 20px;
+  width: 500px;  
 
   box-shadow: 0 8px 8px -4px #bdcbd4;
 }
@@ -35,33 +37,80 @@ h2 {
 .card-right {
   color: #fff;
   background-color: #272822;
-  border: 1px solid rgba(0, 0, 0, 0.12);
+  border: 3px solid #1e1f1c;
   box-sizing: border-box;
-  border-radius: 8px;
   padding: 50px;
   width: 500px;
 
   box-shadow: 0 8px 8px -4px #bdcbd4;
 }
 
-.content>h3 {
+.content > h3 {
   margin: 25px 0;
 }
 
-.content>h4 {
+.content > h4 {
   color: #e6c450;
   margin-top: 50px;
 }
 
-.content>ul>li {
+.content > ul > li {
   text-align: center;
   margin: 10px 0;
 }
 
-.content>ul {
+.content > ul {
   list-style-type: none;
 }
 
+.windows{
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.buttons{
+  display: block;
+}
+
+.titlebar {
+  background-color: #1e1f1c;
+  height: 44px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  padding: 16px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.dot-close {
+  width: 12px;
+  height: 12px;
+  background-color: #ccc;
+  display: inline-block;
+  border-radius: 50%;
+  margin-left: 7px;
+  background-color: #ef6866;
+}
+
+.dot-minimise {
+  width: 12px;
+  height: 12px;
+  background-color: #ccc;
+  display: inline-block;
+  border-radius: 50%;
+  margin-left: 7px;
+  background-color: #f5ed49;
+}
+
+.dot-maximise {
+  width: 12px;
+  height: 12px;
+  background-color: #ccc;
+  display: inline-block;
+  border-radius: 50%;
+  margin-left: 7px;
+  background-color: #89c665;
+}
 
 #skills {
   display: flex;
@@ -71,7 +120,7 @@ h2 {
   text-align: center !important;
 }
 
-#abstract{
+#abstract {
   font-style: italic;
 }
 
@@ -106,19 +155,19 @@ h2 {
   height: 400px;
 }
 
-#works{
-  text-align: center !important;  
+#works {
+  text-align: center !important;
   border-top: 1px solid rgba(0, 0, 0, 0.12);
   padding: 100px 30px;
 }
 
-#works>h2 {
+#works > h2 {
   font-style: bold !important;
 }
 
-#works>p>a,
-#works>p>a:visited,
-#works>p>a:hover {
+#works > p > a,
+#works > p > a:visited,
+#works > p > a:hover {
   color: #88846f !important;
   text-decoration: none !important;
   font-weight: 700 !important;
