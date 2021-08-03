@@ -23,9 +23,9 @@ h2.sub {
   color: #88846f;
 }
 
-.left{
+/* .left{
   margin-right: 20px;
-}
+} */
 
 .card-left {
   color: #fff;
@@ -67,9 +67,11 @@ h2.sub {
   list-style-type: none;
 }
 
-.windows{
+.window{
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
+  display: inline-block;
+  margin-bottom: 30px;
 }
 
 .buttons{
@@ -129,6 +131,7 @@ h2.sub {
 
 .case{
   display: inline-block;
+  margin-bottom: 30px;
 }
 
 .case:not(:last-child){
@@ -196,7 +199,6 @@ h2.sub {
 
 
 #skills {
-  display: flex;
   justify-content: center;
   margin-top: -30px;
   padding-bottom: 100px;
