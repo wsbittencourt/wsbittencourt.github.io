@@ -1,14 +1,16 @@
-@import url("https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 
 body {
-  font-size: 18px;
+  font-size: 22px;
   margin: 0;
   padding: 0;
+  border: 0;
   font-family: "Ubuntu Mono", monospace;
 }
 
 h1 {
-  font-weight: bold;
+  font-family: 'Roboto', sans-serif !important;
+  font-weight: 100;
   font-size: 46px !important;
   color: #a6e22b;
 }
@@ -17,6 +19,8 @@ h2.sub {
   font-size: 32px !important;
   margin-bottom: 10px !important;
   font-style: italic;
+  font-weight: normal;
+  color: #88846f;
 }
 
 .left{
@@ -111,6 +115,85 @@ h2.sub {
   margin-left: 7px;
   background-color: #89c665;
 }
+
+/* Cases */
+
+#cases{
+  margin-top: 100px;
+}
+
+.frame{
+  width: 400px;
+  border-radius: 8px;
+}
+
+.case{
+  display: inline-block;
+}
+
+.case:not(:last-child){
+  margin-right: 60px;
+}
+
+/* End cases */
+
+/* Footer */
+
+#footer {
+  text-align: center;
+  color: #88846f;
+  background-color: #272822;
+  position: absolute;
+  width: 100%;
+}
+
+#footer > img {
+  margin-top: 150px;
+  width: 150px;
+}
+
+#view {
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 60px;
+  font-family: 'Roboto', sans-serif !important;
+  font-weight: 100;
+  width: 300px; 
+  font-size: 24px;
+}
+
+/* End Footer */
+
+/* Brand-buttons */
+#brands {
+  display: inline-block;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+
+.brand-button {
+  border: 2px solid #88846f;
+  background-color: none;
+  padding: 14px 28px;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 50%;
+  width: 30px;
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 15px;
+}
+
+/* .brand-button:hover {
+  background-color: #88846f;
+} */
+
+.brand-button:not(:last-child){
+  margin-right:10px;
+}
+
+/* End Brand-buttons */
+
 
 #skills {
   display: flex;
