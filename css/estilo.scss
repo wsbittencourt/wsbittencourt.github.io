@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
 body {
   font-size: 22px;
   margin: 0;
@@ -22,6 +23,7 @@ h2.sub {
   color: #88846f;
 }
 
+
 .card-left {
   color: #fff;
   background-color: #272822;
@@ -29,6 +31,7 @@ h2.sub {
   box-sizing: border-box;
   padding: 50px;
   width: 500px;
+
   box-shadow: 0 8px 8px -4px #bdcbd4;
 }
 
@@ -39,6 +42,7 @@ h2.sub {
   box-sizing: border-box;
   padding: 50px;
   width: 500px;
+
   box-shadow: 0 8px 8px -4px #bdcbd4;
 }
 
@@ -81,7 +85,6 @@ h2.sub {
   display: flex;
   flex-direction: row-reverse;
 }
-
 .dot-close {
   width: 12px;
   height: 12px;
@@ -113,6 +116,7 @@ h2.sub {
 }
 
 /* Cases */
+
 #cases {
   margin-top: 100px;
 }
@@ -127,7 +131,9 @@ h2.sub {
 }
 
 /* End cases */
+
 /* Footer */
+
 #footer {
   text-align: center;
   color: #88846f;
@@ -152,6 +158,7 @@ h2.sub {
 }
 
 /* End Footer */
+
 /* Brand-buttons */
 #brands {
   display: inline-block;
@@ -177,6 +184,7 @@ h2.sub {
 }
 
 /* End Brand-buttons */
+
 #skills {
   justify-content: center;
   margin-top: -30px;
@@ -204,6 +212,7 @@ h2.sub {
   background-color: #272822;
   padding: 120px 60px 20px;
   color: #e6c450;
+
   padding-bottom: 60px;
 }
 
@@ -218,6 +227,7 @@ h2.sub {
   background: url("../img/mobale.png");
   background-position: center center;
   background-repeat: no-repeat;
+
   width: 100% !important;
   height: 400px;
 }
@@ -242,13 +252,15 @@ h2.sub {
   font-style: normal !important;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 768px){
   .frame {
     width: 60%;
   }
 }
+
 /* Desktop */
 @media only screen and (min-width: 768px) {
+
   #banner {
     background: url("../img/desktop.png");
     background-position: center center;
@@ -262,11 +274,9 @@ h2.sub {
   #avatar {
     width: 172px;
   }
-
   #header {
     padding-bottom: 160px;
   }
-
   #abstract {
     width: 500px;
     margin: 0 auto;
@@ -274,7 +284,5 @@ h2.sub {
 
   .case:not(:last-child) {
     margin-right: 60px;
-  }
+  }  
 }
-
-/*# sourceMappingURL=estilo.css.map */
