@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 body {
-  font-size: 22px;
+  font-size: 18px;
   margin: 0;
   padding: 0;
   border: 0;
@@ -10,7 +10,7 @@ body {
 h1 {
   font-family: "Roboto", sans-serif !important;
   font-weight: 100;
-  font-size: 46px !important;
+  font-size: 42px;
   color: #a6e22b;
 }
 
@@ -22,23 +22,13 @@ h2.sub {
   color: #88846f;
 }
 
-.card-left {
+.card {
   color: #fff;
   background-color: #272822;
   border: 3px solid #1e1f1c;
   box-sizing: border-box;
-  padding: 50px;
-  width: 500px;
-  box-shadow: 0 8px 8px -4px #bdcbd4;
-}
-
-.card-right {
-  color: #fff;
-  background-color: #272822;
-  border: 3px solid #1e1f1c;
-  box-sizing: border-box;
-  padding: 50px;
-  width: 500px;
+  padding: 10px;
+  width: 100%;
   box-shadow: 0 8px 8px -4px #bdcbd4;
 }
 
@@ -64,6 +54,9 @@ h2.sub {
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
   display: inline-block;
+}
+
+.window:not(:last-child) {
   margin-bottom: 30px;
 }
 
@@ -118,6 +111,7 @@ h2.sub {
 }
 
 .frame {
+  width: 100%;
   border-radius: 8px;
 }
 
@@ -146,9 +140,9 @@ h2.sub {
   margin-top: 30px;
   margin-bottom: 60px;
   font-family: "Roboto", sans-serif !important;
-  font-weight: 100;
+  font-weight: normal;
   width: 300px;
-  font-size: 40px;
+  font-size: 32px;
 }
 
 /* End Footer */
@@ -179,8 +173,7 @@ h2.sub {
 /* End Brand-buttons */
 #skills {
   justify-content: center;
-  margin-top: -30px;
-  padding-bottom: 100px;
+  margin: -30px 20px 100px 20px;
   text-align: center !important;
 }
 
@@ -215,18 +208,18 @@ h2.sub {
 }
 
 #banner {
-  background: url("../img/mobale.png");
+  background: url("../img/mobile.png");
   background-position: center center;
   background-repeat: no-repeat;
   width: 100% !important;
-  height: 400px;
+  height: 300px;
 }
 
 #works {
   text-align: center !important;
   border-top: 1px solid rgba(0, 0, 0, 0.12);
   padding: 100px 30px;
-  width: 0 auto;
+  margin: 0 auto;
 }
 
 #works > h2 {
@@ -242,21 +235,12 @@ h2.sub {
   font-style: normal !important;
 }
 
-@media only screen and (max-width: 768px) {
-  .frame {
-    width: 60%;
-  }
-}
-/* Desktop */
-@media only screen and (min-width: 768px) {
+@media (min-width: 800px) {
   #banner {
     background: url("../img/desktop.png");
     background-position: center center;
     background-repeat: no-repeat;
-  }
-
-  .frame {
-    width: 400px;
+    height: 400px;
   }
 
   #avatar {
@@ -272,8 +256,20 @@ h2.sub {
     margin: 0 auto;
   }
 
+  #skills {
+    padding: 0 0px 100px 0px;
+  }
+
   .case:not(:last-child) {
     margin-right: 60px;
+  }
+
+  .card {
+    width: 500px;
+  }
+
+  .frame {
+    width: 400px;
   }
 }
 
