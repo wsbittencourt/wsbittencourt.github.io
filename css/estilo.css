@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
 body {
   font-size: 18px;
   margin: 0;
@@ -22,13 +23,15 @@ h2.sub {
   color: #88846f;
 }
 
-.card {
+
+.card{
   color: #fff;
   background-color: #272822;
   border: 3px solid #1e1f1c;
   box-sizing: border-box;
   padding: 10px;
   width: 100%;
+
   box-shadow: 0 8px 8px -4px #bdcbd4;
 }
 
@@ -56,7 +59,7 @@ h2.sub {
   display: inline-block;
 }
 
-.window:not(:last-child) {
+.window:not(:last-child){
   margin-bottom: 30px;
 }
 
@@ -74,7 +77,6 @@ h2.sub {
   display: flex;
   flex-direction: row-reverse;
 }
-
 .dot-close {
   width: 12px;
   height: 12px;
@@ -106,6 +108,7 @@ h2.sub {
 }
 
 /* Cases */
+
 #cases {
   margin-top: 100px;
 }
@@ -121,7 +124,9 @@ h2.sub {
 }
 
 /* End cases */
+
 /* Footer */
+
 #footer {
   text-align: center;
   color: #88846f;
@@ -146,6 +151,7 @@ h2.sub {
 }
 
 /* End Footer */
+
 /* Brand-buttons */
 #brands {
   display: inline-block;
@@ -171,6 +177,7 @@ h2.sub {
 }
 
 /* End Brand-buttons */
+
 #skills {
   justify-content: center;
   margin: -30px 20px 100px 20px;
@@ -197,6 +204,7 @@ h2.sub {
   background-color: #272822;
   padding: 120px 60px 20px;
   color: #e6c450;
+
   padding-bottom: 60px;
 }
 
@@ -211,6 +219,7 @@ h2.sub {
   background: url("../img/mobile.png");
   background-position: center center;
   background-repeat: no-repeat;
+
   width: 100% !important;
   height: 300px;
 }
@@ -235,42 +244,42 @@ h2.sub {
   font-style: normal !important;
 }
 
+// Desktop 
 @media (min-width: 800px) {
+
   #banner {
     background: url("../img/desktop.png");
     background-position: center center;
     background-repeat: no-repeat;
+
     height: 400px;
   }
 
   #avatar {
     width: 172px;
   }
-
   #header {
     padding-bottom: 160px;
   }
-
   #abstract {
     width: 500px;
     margin: 0 auto;
   }
 
-  #skills {
+  #skills{
     padding: 0 0px 100px 0px;
   }
 
   .case:not(:last-child) {
     margin-right: 60px;
-  }
+  }  
 
-  .card {
+  .card{
     width: 500px;
   }
 
   .frame {
     width: 400px;
   }
-}
 
-/*# sourceMappingURL=estilo.css.map */
+}
